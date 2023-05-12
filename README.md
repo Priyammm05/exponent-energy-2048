@@ -19,6 +19,26 @@ Develop a functional implementation of the popular game "2048" using any languag
 ### How to play 2048?
 Use your arrow keys to slide the tiles in the direction you want. When tiles with equal numbers collide, they will merge into one tile and double in value.
 
+  1. The game starts with two tiles with the number 2 on the grid.
+  2. Use the arrow keys (up, down, left, right) to move the tiles in the desired direction.
+  3. When two tiles with the same number touch, they merge into a new tile with twice the value.
+  4. Every time you move a tile, a new tile with the number 2 or 4 appears on the grid.
+  5. The game ends when there are no more moves available, i.e. the grid is full and no adjacent tiles have the same value.
+
+
+
+## Running client side 
+
+  ```
+  # To run the flutter application one should must have FLUTTER SDK installed in their system 
+  
+  flutter pub get
+  open web simulator from IDE
+  flutter run
+  
+  ```
+
+
 ## Screenshots
 
 ![image](https://github.com/Priyammm05/exponent-energy-2048/assets/80326453/460c37ac-c8a7-4e69-8bc4-5d993368cf60)
